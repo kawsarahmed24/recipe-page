@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Young Serif", serif;
+}
+body{
+    width: 100%;
+    padding-top: 30px;
+    background-color: hsl(30, 54%, 90%);
+}
+.recipe-container{
+    width: 375px;
+    padding: 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.recipe-image{
+    width: 100%;
+    border-radius: 20px;
+}
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.preperation{
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    margin: 30px 0;
+}
+.preperation-title{
+    color: hsl(30, 10%, 34%);
+}
+.ingredients, .instruction, .nutrition{
+    margin: 30px 0;
+}
+.section-title{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+    margin: 20px 0;
+}
+.ingredients ul li{
+    color: gray;
+    margin: 10px 0;
+}
+.instruction ol li{
+    color: gray;
+    margin: 10px 0;
+}
+hr{
+    color: hsl(30, 18%, 87%);
+}
+.nutrition-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.value{
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+}
+.item{
+    border-bottom: 1px solid gray;
+}
